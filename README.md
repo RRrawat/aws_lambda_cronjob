@@ -4,6 +4,7 @@ This module creates a Lambda function, and configures it to be invoked on a sche
 
 ## Example 1: Simple cronjob
 
+
 First, write down some simple code to deploy in a file called `index.js`:
 
 ```js
@@ -13,6 +14,8 @@ exports.handler = function(event, context, callback) {
   callback(null);
 };
 ```
+
+
 
 Assuming you have the [AWS provider](https://www.terraform.io/docs/providers/aws/index.html) set up:
 
